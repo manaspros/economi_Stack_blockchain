@@ -40,6 +40,9 @@ Our vision is to create a new paradigm of blockchain-based economic gaming that:
 - Demonstrate market dynamics and asset valuation
 - Create understanding of economic incentive structures
 
+<img width="1858" height="1621" alt="image" src="https://github.com/user-attachments/assets/120a3d43-adbf-4ade-a5a8-589c83a69e76" />
+
+
 ## 🚀 Future Scope
 
 ### Phase 1: Enhanced Features
