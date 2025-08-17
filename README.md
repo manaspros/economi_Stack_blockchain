@@ -1,6 +1,11 @@
 # 🏆 Economic Counter
 
 ## A Blockchain-Powered Counter Game with Economic Incentives
+<img width="2879" height="1622" alt="image" src="https://github.com/user-attachments/assets/4f24b51e-6e97-4c3a-9657-03846bc7f676" />
+
+## Contract Details:
+ST29BB7SQJC7AYVCDYG94KXFYR3HW0ADDKPTNTSC.economiccounter
+
 
 ## 📋 Project Description
 
