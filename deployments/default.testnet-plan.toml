@@ -1,0 +1,20 @@
+[network]
+name = "testnet"
+node_rpc_address = "https://api.testnet.hiro.so"
+deployment_fee_rate = 10
+
+[[network.accounts]]
+label = "deployer"
+balance = 100_000_000_000_000
+
+[plan]
+id = 0
+name = "testnet deployment"
+
+[[plan.batches]]
+id = 0
+[[plan.batches.transactions]]
+requirement = { stx_transferred = 1_000_000 }
+
+[[plan.batches.transactions]]
+contract_publish = { contract_name = "economiccounter", path = "contracts/economiccounter.clar", clarity_version = 3 }

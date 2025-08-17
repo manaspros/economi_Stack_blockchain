@@ -1,0 +1,17 @@
+---
+id: 0
+name: "testnet deployment"
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "https://blockstream.info/testnet/api"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - requirement:
+            stx-transferred: 1000000  # 1 STX for deployment fees
+        - contract-publish:
+            contract-name: economiccounter
+            path: "contracts/economiccounter.clar"
+            clarity-version: 3
+      epoch: "3.2"
